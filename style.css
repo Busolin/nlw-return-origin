@@ -1,0 +1,72 @@
+:root {
+  /* Cores do aplicativo */
+  --primary-color: #00856f;
+  --headline: #061800;
+  --paragraph: #384633;
+
+  /* Fontes do aplicativo */
+  font-size: 62.5%;
+}
+
+/* Configurações globais  */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans";
+  font-size: 1.6rem;
+
+  text-align: center;
+}
+
+header {
+  width: 37.5rem;
+  margin: 4.1rem auto 0;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 130%;
+  color: var(--paragraph);
+  margin-bottom: 3.2rem;
+}
+
+button {
+  background: var(--primary-color);
+
+  border: none;
+  border-radius: 4rem;
+
+  height: 6.2rem;
+  width: 26.3rem;
+
+  color: white;
+
+  text-transform: uppercase;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  margin: 0 auto 6rem;
+}
